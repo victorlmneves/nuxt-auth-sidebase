@@ -27,7 +27,7 @@ export default NuxtAuthHandler({
       responseType: AUTH0_RESPONSE_TYPE,
       checks: AUTH0_CHECKS,
       scope: AUTH0_SCOPE,
-      authorization: { params: { scope: SCOPE }, audience: AUTH0_MEK_AUDIENCE }
+      authorization: { params: { scope: AUTH0_SCOPE }, audience: AUTH0_MEK_AUDIENCE }
     })
   ]
 })
